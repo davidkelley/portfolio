@@ -4,7 +4,7 @@ before_script:
   - npm install
 script:
   - cd src
-  - webpack build
+  - webpack
 deploy:
   provider: s3
   bucket: davidkelley.xyz
