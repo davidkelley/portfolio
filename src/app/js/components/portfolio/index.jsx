@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { loginUser } from '../../actions/users';
 import { Link } from 'react-router';
 
-class UsersIndex extends Component {
+class PortfolioIndex extends Component {
   static contextTypes = {
     router: PropTypes.object
   };
@@ -43,4 +43,4 @@ class UsersIndex extends Component {
   }
 }
 
-export default connect(null, { loginUser })(UsersIndex);
+export default connect(null, { loginUser })(PortfolioIndex);
