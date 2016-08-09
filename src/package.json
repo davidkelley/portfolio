@@ -1,13 +1,18 @@
 {
-  "name": "serverless-sms-login",
-  "version": "0.1.0",
-  "description": "Simple Digits clone using Serverless & GraphQL",
+  "name": "david-kelley-portfolio",
+  "version": "0.0.1",
+  "description": "David Kelley's Personal Portfolio",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --hot --inline"
   },
   "author": "David Kelley",
   "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidkelley/portfolio"
+  },
   "devDependencies": {
     "babel-core": "^6.6.5",
     "babel-loader": "^6.2.4",

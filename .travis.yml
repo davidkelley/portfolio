@@ -1,0 +1,20 @@
+language: node
+before_script:
+  - cd src
+  - npm install
+script:
+  - cd src
+  - webpack build
+deploy:
+  provider: s3
+  bucket: davidkelley.xyz
+  skip_cleanup: true
+  local-dir: dist
+  edge: true
+  region: us-east-1
+  on:
+    branch: master
+  secret_access_key:
+    secure: ---
+  access_key_id:
+    secure: ---
