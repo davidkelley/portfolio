@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { init } from '../../actions/terminal';
+import { commands, config } from '../../terminal/index';
+// import { init } from '../../actions/terminal';
 import { Link } from 'react-router';
 
 // import { AsciiTable } from 'ascii-table';
@@ -8,7 +9,7 @@ import { Link } from 'react-router';
 
 class PortfolioIndex extends Component {
   componentDidMount() {
-    init();
+    $('#body').terminal(commands, config);
   }
 
   render() {
