@@ -10,7 +10,7 @@ deploy:
   provider: s3
   bucket: davidkelley.xyz
   skip_cleanup: true
-  local-dir: dist
+  local-dir: ../dist
   edge: true
   region: us-east-1
   on:
