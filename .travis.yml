@@ -1,5 +1,7 @@
-language: node
-before_script:
+language: node_js
+node_js:
+  - "4.4"
+install:
   - cd src
   - npm install
 script:
@@ -15,6 +17,6 @@ deploy:
   on:
     branch: master
   secret_access_key:
-    secure: ---
+    secure: "jMINCDTjqOmKoNfKozHJ0QRjXCTk05XiVG6dY1/dkYnhtdbtbmgvCEek9tfwUsERSUIeWdDxu6ueDSRf6Gn5zMCv5VNR7XgYUhffW8A3HIfKGdhYiBhbB0ykKX9Y3E03zOnZ21SLS3S1EQriWOpSsWnTncV87yMLXjYtl2Ct0hCd7khhSHTuarpfypg9PtSsD+Pm22BZo+Xr9sN14yOacPtL5WSalWMav5k2uJiTLs/40IY2jLN7Z6XV5IrU1RfCjmwqVIXYcRUATYrMWAfwI0gx+BYTX+PMwEuLQbS0XARfXteSAnwPyXydHN1lYtAzURc0SdzudYDBuOdk4FJRETVIToE5Hzvg/H2PhuQO0nMUVkVODyJCym3M81r/NtAAISfCmKCt/beU+pdP4atNo6ttjMvW1qOzp3zCC+G00swo/g6g33dsageR5+Yb0QGZnPryaY2Eqh4RlSJeMbKYaG0QHfo41ErM+ET76cfA360K4sLEgFpcjLez7URiqk4KZkzsdQuM/PWKEQwIDYQGyzt9PLCQg5gnyGCfROYmDW+iXrbLxlAL0+GRGO2Kv5a0yQ1EWJY3jZZgBLTiiZL9QVAkf5WQzUnUvpCwPOkqDeTsVJicIYsZesEKC/QiF1h1sgAb+Tfq3V3v9seyKROj/q+ZUSSeB3bN4sUCoGZiUas="
   access_key_id:
-    secure: ---
+    secure: "LuXr4Fgc505alWcosKwdfcUc2dttG+E3+I7gnHOM/fRXQNWT2GMJFkwDAnn3d9sLszg8+t1uuuvdM/jfSnAJh00DVZqh6IpjL237v6x2lNVHA961s2Sxf2eSkU9YUFdeboBYZhEVELmKexRVInt+ihn1GLPJCUKjbU55A/3NyzYIqP+a2YGKmGTJG1YHhbWgo1WlaCcYxSHFgaicuJ7a/WoHsNmwfcdouF5TcvZjpmPyWecunYymkW2IRfomkLI2TZozOri4DX/H5+7Fiqb5fw5VhfVcXf5/YRsyeY+3mXT2Lte5hPUkDIgirz2kShne4k033thyLcJ6piosjyLJdOERxdXQpZDp2DIUzrRGXbm9ZaRMsZqpg+ixks9cfN2PkvsCfJHyZliIevfubh7IuWhGwhFiYSSHEYJm4Uh1GNtHj3DPfh/DhN/5Y3mdRJNtoEOEfzNmEFnoPcgw/6BxNeRWgY5mUXt46ElTyGPubaroXDBEZT7o0YeXvji2VNwUT5oH4BFeqjJ+7p6oW7ZRQAK+VKL1+6qQLOBi+o08n0zpcwJR28isNSIbnutUYfhONeDVnP8qWR7AbRIKep6GiWt0CSDbd3O/kes7xMCgV71SpmRtCX1mzm1haZEoIKS+fQbkiIuNYyuoHl3rhEK6CAKT1z9fTxZ7DhgBj+ZsQB8="

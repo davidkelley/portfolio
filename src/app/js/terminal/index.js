@@ -1,8 +1,11 @@
 import { help } from './commands/help';
+import { skills } from './commands/skills';
+import { whoami } from './commands/whoami';
+import { projects } from './commands/projects';
 
-export const GREETING =
-  `David Kelleys Blog LOL
-  `
+export const GREETING = `
+The website of David Kelley. Type "help" to get started!
+`
 
 export const config = {
   history: true,
@@ -11,4 +14,4 @@ export const config = {
   checkArity: false
 }
 
-export const commands = { help }
+export const commands = { help, skills, whoami }

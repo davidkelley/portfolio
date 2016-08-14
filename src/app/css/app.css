@@ -9,3 +9,20 @@ html, body {
   background: -webkit-linear-gradient(to left, #F1F2B5 , #135058);
   background: linear-gradient(to left, #F1F2B5 , #135058);
 }
+
+.toolbar {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: right;
+
+}
+
+.toolbar a {
+  color: #FFF;
+  opacity: .4;
+  margin-left: 10px;
+}
+
+.toolbar a:hover, .toolbar a:visited, .toolbar a:active {
+  opacity: 1;
+}
