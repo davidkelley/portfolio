@@ -1,4 +1,4 @@
-export const projects = [
+export const details = [
   {
     name: '',
     tags: [],

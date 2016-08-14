@@ -1,5 +1,5 @@
 import { table } from '../utilities';
-import { projects } from './data/projects';
+import { details } from './data/details';
 
 export function projects(name) {
   if( ! name) {
