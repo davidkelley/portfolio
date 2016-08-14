@@ -41,11 +41,11 @@ class PortfolioIndex extends Component {
         </div>
       </div>
       <div className="toolbar">
-        <a href="https://codepen.io/davidkelley" target="_blank"><i className="fa fa-codepen" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/davidkelley87" target="_blank"><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
-        <a href="https://medium.com/@davidkelley87" target="_blank"><i className="fa fa-rss-square" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/david-kelley-40677093" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="https://github.com/davidkelley" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+        <a alt="Github" title="Github" href="https://github.com/davidkelley" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+        <a alt="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/in/david-kelley-40677093" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a alt="Twitter" title="Twitter" href="https://twitter.com/davidkelley87" target="_blank"><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a alt="Medium" title="Medium" href="https://medium.com/@davidkelley87" target="_blank"><i className="fa fa-rss-square" aria-hidden="true"></i></a>
+        <a alt="CodePen" title="CodePen" href="https://codepen.io/davidkelley" target="_blank"><i className="fa fa-codepen" aria-hidden="true"></i></a>
       </div>
     </div>
     );
